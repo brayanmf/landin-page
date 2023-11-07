@@ -1,0 +1,77 @@
+.home-list li {
+    list-style: none;
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-shadow: 2px 2px #000;
+}
+
+.home-background {
+    height: calc(100vh - 60px);
+
+
+    background-image: linear-gradient(#00a3de55, #00a3de55), url('../../../assets/calidda/calidda.jpg');
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-background_content {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.parrofo-requisito {
+
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(255, 196, 59);
+}
+
+.content-parrafo {
+
+    width: 45rem;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.form-title {
+    font-size: 2rem;
+    color: rgb(255, 196, 59)
+}
+
+@media screen and (max-width: 600px) {
+    .content-parrafo {
+        width: 100%;
+    }
+
+    .parrofo-requisito {
+        padding: 2rem;
+        font-weight: bold;
+        font-size: 30px;
+        color: rgb(255, 196, 59);
+    }
+
+    .home-list li {
+        font-size: 1rem;
+    }
+
+    .home-background {
+        height: inherit !important;
+
+    }
+
+    .home-background_content {
+        padding: 2rem;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+}
